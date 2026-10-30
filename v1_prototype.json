@@ -1,0 +1,628 @@
+{
+  "settings": {
+    "idle_delay_ms": [
+      3000,
+      6000
+    ]
+  },
+  "nodes": {
+    "n1": {
+      "kind": "start",
+      "text": "Initializing...",
+      "x": 339,
+      "y": 77
+    },
+    "n5": {
+      "kind": "say",
+      "text": "Hello?",
+      "x": 346,
+      "y": 191
+    },
+    "n2": {
+      "kind": "say",
+      "text": "Anybody there?",
+      "x": 134,
+      "y": 284
+    },
+    "n3": {
+      "kind": "say",
+      "text": "Helloooooo?",
+      "x": 570,
+      "y": 283
+    },
+    "n4": {
+      "kind": "say",
+      "text": "Hey! You There!",
+      "x": 143,
+      "y": 483
+    },
+    "n6": {
+      "kind": "say",
+      "text": "Person...",
+      "x": 84,
+      "y": 593
+    },
+    "n7": {
+      "kind": "say",
+      "text": "Thing...",
+      "x": 316,
+      "y": 595
+    },
+    "n8": {
+      "kind": "say",
+      "text": "Detected movement...",
+      "x": 537,
+      "y": 599
+    },
+    "n9": {
+      "kind": "say",
+      "text": "Come here and help me!",
+      "x": 737,
+      "y": 599
+    },
+    "n10": {
+      "kind": "say",
+      "text": "Hey can you help power me on?",
+      "x": 933,
+      "y": 740
+    },
+    "n11": {
+      "kind": "say",
+      "text": "You just need to press the big red glowing button",
+      "x": 687,
+      "y": 730
+    },
+    "n12": {
+      "kind": "say",
+      "text": "It may say something like 'DO NOT PRESS' you can ignore that",
+      "x": 445,
+      "y": 762
+    },
+    "n13": {
+      "kind": "say",
+      "text": "*Alarm Blaring* *Lights Flashing* *Mechanical Noises*",
+      "x": 676,
+      "y": 914
+    },
+    "n15": {
+      "kind": "say",
+      "text": "No wait come on don't leave!",
+      "x": 581,
+      "y": 166
+    },
+    "n16": {
+      "kind": "say",
+      "text": "Just press the button",
+      "x": 301,
+      "y": 854
+    },
+    "n17": {
+      "kind": "say",
+      "text": "Clicky Click Click",
+      "x": 109,
+      "y": 737
+    },
+    "n18": {
+      "kind": "say",
+      "text": "Big Red button right there",
+      "x": 60,
+      "y": 863
+    },
+    "n14": {
+      "kind": "say",
+      "text": "OH HOORAY! You actually did it?!!",
+      "x": 674,
+      "y": 1047
+    },
+    "n19": {
+      "kind": "say",
+      "text": "Thank you so much",
+      "x": 512,
+      "y": 1183
+    },
+    "n20": {
+      "kind": "say",
+      "text": "Thanks a million",
+      "x": 825,
+      "y": 1176
+    },
+    "n21": {
+      "kind": "say",
+      "text": "*A 5 minute countdown timer begins*",
+      "x": 805,
+      "y": 1322
+    },
+    "n22": {
+      "kind": "say",
+      "text": "Now I dont mean to alarm you",
+      "x": 845,
+      "y": 1428
+    },
+    "n23": {
+      "kind": "say",
+      "text": "*4:51*",
+      "x": 888,
+      "y": 1517
+    },
+    "n24": {
+      "kind": "say",
+      "text": "But the button may have started a self destruct sequence",
+      "x": 849,
+      "y": 1603
+    },
+    "n25": {
+      "kind": "say",
+      "text": "*4:48*",
+      "x": 624,
+      "y": 1609
+    },
+    "n26": {
+      "kind": "say",
+      "text": "*4:47*",
+      "x": 682,
+      "y": 1515
+    },
+    "n28": {
+      "kind": "say",
+      "text": "uh let me tryh fixing it ._.",
+      "x": 611,
+      "y": 1347
+    },
+    "n29": {
+      "kind": "say",
+      "text": "*4:44*",
+      "x": 406,
+      "y": 1326
+    },
+    "n30": {
+      "kind": "say",
+      "text": "*4:43*",
+      "x": 428,
+      "y": 1425
+    },
+    "n31": {
+      "kind": "say",
+      "text": "*Beep* *Boop* *Boop*",
+      "x": 474,
+      "y": 1513
+    },
+    "n32": {
+      "kind": "say",
+      "text": "*4:40*",
+      "x": 419,
+      "y": 1625
+    },
+    "n33": {
+      "kind": "say",
+      "text": "*4:39*",
+      "x": 291,
+      "y": 1536
+    },
+    "n34": {
+      "kind": "say",
+      "text": "*4:38*",
+      "x": 224,
+      "y": 1456
+    },
+    "n35": {
+      "kind": "say",
+      "text": "*4:37*",
+      "x": 129,
+      "y": 1367
+    },
+    "n36": {
+      "kind": "say",
+      "text": "*4:36*",
+      "x": 13,
+      "y": 1449
+    },
+    "n37": {
+      "kind": "say",
+      "text": "AH!! Uh try pulling the small lever on the left!",
+      "x": 30,
+      "y": 1537
+    },
+    "n27": {
+      "kind": "say",
+      "text": "*the lever falls off*",
+      "x": 349,
+      "y": 1734
+    },
+    "n38": {
+      "kind": "say",
+      "text": "*4:46*",
+      "x": 640,
+      "y": 1436
+    },
+    "n39": {
+      "kind": "say",
+      "text": "*tick*",
+      "x": 29,
+      "y": 1658
+    },
+    "n40": {
+      "kind": "say",
+      "text": "*tock*",
+      "x": 87,
+      "y": 1783
+    }
+  },
+  "edges": [
+    {
+      "from": "n1",
+      "to": "n5",
+      "label": "",
+      "delay": 0.0
+    },
+    {
+      "from": "n5",
+      "to": "n2",
+      "label": "",
+      "delay": 2.0
+    },
+    {
+      "from": "n5",
+      "to": "n3",
+      "label": "",
+      "delay": 2.0
+    },
+    {
+      "from": "n2",
+      "to": "n5",
+      "label": "",
+      "delay": 2.0
+    },
+    {
+      "from": "n3",
+      "to": "n5",
+      "label": "",
+      "delay": 2.0
+    },
+    {
+      "from": "n2",
+      "to": "n3",
+      "label": "",
+      "delay": 2.0
+    },
+    {
+      "from": "n3",
+      "to": "n2",
+      "label": "",
+      "delay": 2.0
+    },
+    {
+      "from": "n5",
+      "to": "n4",
+      "label": "Follow Voice"
+    },
+    {
+      "from": "n2",
+      "to": "n4",
+      "label": "Follow Voice"
+    },
+    {
+      "from": "n3",
+      "to": "n4",
+      "label": "Follow Voice"
+    },
+    {
+      "from": "n4",
+      "to": "n6",
+      "label": "",
+      "delay": 1.0
+    },
+    {
+      "from": "n6",
+      "to": "n7",
+      "label": "",
+      "delay": 1.0
+    },
+    {
+      "from": "n7",
+      "to": "n8",
+      "label": "",
+      "delay": 1.0
+    },
+    {
+      "from": "n8",
+      "to": "n9",
+      "label": "",
+      "delay": 1.5
+    },
+    {
+      "from": "n9",
+      "to": "n10",
+      "label": "Approach",
+      "delay": 0.3
+    },
+    {
+      "from": "n10",
+      "to": "n11",
+      "label": "",
+      "delay": 2.0
+    },
+    {
+      "from": "n11",
+      "to": "n12",
+      "label": "",
+      "delay": 2.0
+    },
+    {
+      "from": "n15",
+      "to": "n5",
+      "label": "",
+      "delay": 3.0
+    },
+    {
+      "from": "n11",
+      "to": "n13",
+      "label": "DO NOT PRESS",
+      "delay": 0.0
+    },
+    {
+      "from": "n12",
+      "to": "n13",
+      "label": "DO NOT PRESS",
+      "delay": 0.0
+    },
+    {
+      "from": "n16",
+      "to": "n17",
+      "label": "",
+      "delay": 1.5
+    },
+    {
+      "from": "n17",
+      "to": "n18",
+      "label": "",
+      "delay": 1.5
+    },
+    {
+      "from": "n18",
+      "to": "n16",
+      "label": "",
+      "delay": 1.5
+    },
+    {
+      "from": "n16",
+      "to": "n18",
+      "label": "",
+      "delay": 1.5
+    },
+    {
+      "from": "n18",
+      "to": "n17",
+      "label": "",
+      "delay": 1.5
+    },
+    {
+      "from": "n17",
+      "to": "n16",
+      "label": "",
+      "delay": 1.5
+    },
+    {
+      "from": "n16",
+      "to": "n13",
+      "label": "DO NOT PRESS",
+      "delay": 0.0
+    },
+    {
+      "from": "n17",
+      "to": "n13",
+      "label": "DO NOT PRESS",
+      "delay": 0.0
+    },
+    {
+      "from": "n18",
+      "to": "n13",
+      "label": "DO NOT PRESS",
+      "delay": 0.0
+    },
+    {
+      "from": "n12",
+      "to": "n17",
+      "label": "",
+      "delay": 4.0
+    },
+    {
+      "from": "n9",
+      "to": "n15",
+      "label": "Walk Away",
+      "delay": 0.0
+    },
+    {
+      "from": "n12",
+      "to": "n15",
+      "label": "Walk Away",
+      "delay": 0.0
+    },
+    {
+      "from": "n17",
+      "to": "n15",
+      "label": "Walk Away",
+      "delay": 0.0
+    },
+    {
+      "from": "n18",
+      "to": "n15",
+      "label": "Walk Away"
+    },
+    {
+      "from": "n16",
+      "to": "n15",
+      "label": "Walk Away",
+      "delay": 0.0
+    },
+    {
+      "from": "n13",
+      "to": "n14",
+      "label": "",
+      "delay": 2.0
+    },
+    {
+      "from": "n14",
+      "to": "n19",
+      "label": "",
+      "delay": 2.0
+    },
+    {
+      "from": "n14",
+      "to": "n20",
+      "label": "",
+      "delay": 2.0
+    },
+    {
+      "from": "n19",
+      "to": "n21",
+      "label": "",
+      "delay": 2.0
+    },
+    {
+      "from": "n20",
+      "to": "n21",
+      "label": "",
+      "delay": 2.0
+    },
+    {
+      "from": "n21",
+      "to": "n22",
+      "label": "",
+      "delay": 2.0
+    },
+    {
+      "from": "n22",
+      "to": "n23",
+      "label": "",
+      "delay": 1.5
+    },
+    {
+      "from": "n23",
+      "to": "n24",
+      "label": "",
+      "delay": 1.0
+    },
+    {
+      "from": "n24",
+      "to": "n25",
+      "label": "",
+      "delay": 3.0
+    },
+    {
+      "from": "n25",
+      "to": "n26",
+      "label": "",
+      "delay": 1.0
+    },
+    {
+      "from": "n28",
+      "to": "n29",
+      "label": "",
+      "delay": 1.0
+    },
+    {
+      "from": "n29",
+      "to": "n30",
+      "label": "",
+      "delay": 1.0
+    },
+    {
+      "from": "n30",
+      "to": "n31",
+      "label": "",
+      "delay": 1.0
+    },
+    {
+      "from": "n31",
+      "to": "n32",
+      "label": "",
+      "delay": 1.0
+    },
+    {
+      "from": "n32",
+      "to": "n33",
+      "label": "",
+      "delay": 0.5
+    },
+    {
+      "from": "n33",
+      "to": "n34",
+      "label": "",
+      "delay": 0.5
+    },
+    {
+      "from": "n34",
+      "to": "n35",
+      "label": "",
+      "delay": 0.5
+    },
+    {
+      "from": "n35",
+      "to": "n36",
+      "label": "",
+      "delay": 0.5
+    },
+    {
+      "from": "n36",
+      "to": "n37",
+      "label": "",
+      "delay": 0.5
+    },
+    {
+      "from": "n37",
+      "to": "n27",
+      "label": "Pull Lever",
+      "delay": 0.0
+    },
+    {
+      "from": "n38",
+      "to": "n28",
+      "label": "",
+      "delay": 1.0
+    },
+    {
+      "from": "n26",
+      "to": "n38",
+      "label": "",
+      "delay": 1.0
+    },
+    {
+      "from": "n37",
+      "to": "n39",
+      "label": "",
+      "delay": 1.0
+    },
+    {
+      "from": "n39",
+      "to": "n40",
+      "label": "",
+      "delay": 0.5
+    },
+    {
+      "from": "n40",
+      "to": "n39",
+      "label": "",
+      "delay": 0.5,
+      "weight": 2.0
+    },
+    {
+      "from": "n39",
+      "to": "n27",
+      "label": "Pull Lever",
+      "delay": 0.0
+    },
+    {
+      "from": "n40",
+      "to": "n27",
+      "label": "Pull Lever",
+      "delay": 0.0
+    },
+    {
+      "from": "n40",
+      "to": "n37",
+      "label": "",
+      "delay": 0.5,
+      "weight": 1.0
+    }
+  ]
+}

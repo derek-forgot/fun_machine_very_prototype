@@ -1,0 +1,331 @@
+{
+  "settings": {
+    "idle_delay_ms": [
+      3000,
+      6000
+    ]
+  },
+  "nodes": {
+    "n1": {
+      "kind": "start",
+      "text": "Initializing...",
+      "x": 339,
+      "y": 77
+    },
+    "n5": {
+      "kind": "say",
+      "text": "Hello?",
+      "x": 346,
+      "y": 191
+    },
+    "n2": {
+      "kind": "say",
+      "text": "Anybody there?",
+      "x": 134,
+      "y": 284
+    },
+    "n3": {
+      "kind": "say",
+      "text": "Helloooooo?",
+      "x": 570,
+      "y": 283
+    },
+    "n4": {
+      "kind": "say",
+      "text": "Hey! You There!",
+      "x": 342,
+      "y": 512
+    },
+    "n6": {
+      "kind": "say",
+      "text": "Person...",
+      "x": 84,
+      "y": 593
+    },
+    "n7": {
+      "kind": "say",
+      "text": "Thing...",
+      "x": 316,
+      "y": 595
+    },
+    "n8": {
+      "kind": "say",
+      "text": "Detected movement...",
+      "x": 537,
+      "y": 599
+    },
+    "n9": {
+      "kind": "say",
+      "text": "Come here and help me!",
+      "x": 737,
+      "y": 599
+    },
+    "n10": {
+      "kind": "say",
+      "text": "Hey can you help power me on?",
+      "x": 933,
+      "y": 740
+    },
+    "n11": {
+      "kind": "say",
+      "text": "You just need to press the big red glowing button",
+      "x": 687,
+      "y": 730
+    },
+    "n12": {
+      "kind": "say",
+      "text": "It may say something like 'DO NOT PRESS' you can ignore that",
+      "x": 445,
+      "y": 762
+    },
+    "n13": {
+      "kind": "say",
+      "text": "*Alarm Blaring* *Lights Flashing* *Mechanical Noises*",
+      "x": 676,
+      "y": 914
+    },
+    "n15": {
+      "kind": "say",
+      "text": "No wait come on don't leave!",
+      "x": 581,
+      "y": 166
+    },
+    "n16": {
+      "kind": "say",
+      "text": "Just press the button",
+      "x": 301,
+      "y": 854
+    },
+    "n17": {
+      "kind": "say",
+      "text": "Clicky Click Click",
+      "x": 109,
+      "y": 737
+    },
+    "n18": {
+      "kind": "say",
+      "text": "Big Red button right there",
+      "x": 60,
+      "y": 863
+    }
+  },
+  "edges": [
+    {
+      "from": "n1",
+      "to": "n5",
+      "label": "",
+      "delay": 0.0
+    },
+    {
+      "from": "n5",
+      "to": "n2",
+      "label": "",
+      "delay": 2.0
+    },
+    {
+      "from": "n5",
+      "to": "n3",
+      "label": "",
+      "delay": 2.0
+    },
+    {
+      "from": "n2",
+      "to": "n5",
+      "label": "",
+      "delay": 2.0
+    },
+    {
+      "from": "n3",
+      "to": "n5",
+      "label": "",
+      "delay": 2.0
+    },
+    {
+      "from": "n2",
+      "to": "n3",
+      "label": "",
+      "delay": 2.0
+    },
+    {
+      "from": "n3",
+      "to": "n2",
+      "label": "",
+      "delay": 2.0
+    },
+    {
+      "from": "n5",
+      "to": "n4",
+      "label": "Follow Voice"
+    },
+    {
+      "from": "n2",
+      "to": "n4",
+      "label": "Follow Voice"
+    },
+    {
+      "from": "n3",
+      "to": "n4",
+      "label": "Follow Voice"
+    },
+    {
+      "from": "n4",
+      "to": "n6",
+      "label": "",
+      "delay": 1.0
+    },
+    {
+      "from": "n6",
+      "to": "n7",
+      "label": "",
+      "delay": 1.0
+    },
+    {
+      "from": "n7",
+      "to": "n8",
+      "label": "",
+      "delay": 1.0
+    },
+    {
+      "from": "n8",
+      "to": "n9",
+      "label": "",
+      "delay": 1.5
+    },
+    {
+      "from": "n9",
+      "to": "n10",
+      "label": "Approach",
+      "delay": 1.0
+    },
+    {
+      "from": "n10",
+      "to": "n11",
+      "label": "",
+      "delay": 2.0
+    },
+    {
+      "from": "n11",
+      "to": "n12",
+      "label": "",
+      "delay": 2.0
+    },
+    {
+      "from": "n15",
+      "to": "n5",
+      "label": "",
+      "delay": 3.0
+    },
+    {
+      "from": "n10",
+      "to": "n13",
+      "label": "DO NOT PRESS",
+      "delay": 0.0
+    },
+    {
+      "from": "n11",
+      "to": "n13",
+      "label": "DO NOT PRESS",
+      "delay": 0.0
+    },
+    {
+      "from": "n12",
+      "to": "n13",
+      "label": "DO NOT PRESS",
+      "delay": 0.0
+    },
+    {
+      "from": "n16",
+      "to": "n17",
+      "label": "",
+      "delay": 1.5
+    },
+    {
+      "from": "n17",
+      "to": "n18",
+      "label": "",
+      "delay": 1.5
+    },
+    {
+      "from": "n18",
+      "to": "n16",
+      "label": "",
+      "delay": 1.5
+    },
+    {
+      "from": "n16",
+      "to": "n18",
+      "label": "",
+      "delay": 1.5
+    },
+    {
+      "from": "n18",
+      "to": "n17",
+      "label": "",
+      "delay": 1.5
+    },
+    {
+      "from": "n17",
+      "to": "n16",
+      "label": "",
+      "delay": 1.5
+    },
+    {
+      "from": "n16",
+      "to": "n13",
+      "label": "DO NOT PRESS",
+      "delay": 0.0
+    },
+    {
+      "from": "n17",
+      "to": "n13",
+      "label": "DO NOT PRESS",
+      "delay": 0.0
+    },
+    {
+      "from": "n18",
+      "to": "n13",
+      "label": "DO NOT PRESS",
+      "delay": 0.0
+    },
+    {
+      "from": "n12",
+      "to": "n17",
+      "label": ""
+    },
+    {
+      "from": "n4",
+      "to": "n15",
+      "label": "Walk Away",
+      "delay": 0.0
+    },
+    {
+      "from": "n9",
+      "to": "n15",
+      "label": "Walk Away",
+      "delay": 0.0
+    },
+    {
+      "from": "n12",
+      "to": "n15",
+      "label": "Walk Away",
+      "delay": 0.0
+    },
+    {
+      "from": "n17",
+      "to": "n15",
+      "label": "Walk Away",
+      "delay": 0.0
+    },
+    {
+      "from": "n18",
+      "to": "n15",
+      "label": "Walk Away"
+    },
+    {
+      "from": "n16",
+      "to": "n15",
+      "label": "Walk Away",
+      "delay": 0.0
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "settings": {
+    "idle_delay_ms": [
+      3000,
+      6000
+    ]
+  },
+  "nodes": {
+    "n1": {
+      "kind": "start",
+      "text": "Take 2",
+      "x": 273,
+      "y": 104
+    },
+    "n2": {
+      "kind": "say",
+      "text": "Hey!",
+      "x": 264,
+      "y": 252
+    },
+    "n3": {
+      "kind": "say",
+      "text": "Will ya save?",
+      "x": 324,
+      "y": 346
+    }
+  },
+  "edges": [
+    {
+      "from": "n1",
+      "to": "n2",
+      "label": "opt1"
+    },
+    {
+      "from": "n2",
+      "to": "n3",
+      "label": "opt2"
+    }
+  ]
+}
